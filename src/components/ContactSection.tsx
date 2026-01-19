@@ -41,7 +41,7 @@ export function ContactSection() {
     });
     
     setFormData({ name: "", email: "", message: "" });
-    setIsSubmitting(false);
+    setIsSubmitting(true);
   };
 
   const contactInfo = [
